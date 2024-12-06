@@ -11,3 +11,6 @@ print(f"Tabelnya sebelum sorting: {arr}")
 
 sorted_arr = bubble_sort(arr)
 print(f"Tabelnya setelah sorting: {sorted_arr}")
+
+#Tanpa keterurutan, algoritma tidak dapat memastikan bagian mana yang harus dicari, sehingga binary search tidak bisa bekerja.
+#Oleh karena itu, data harus diurutkan terlebih dahulu sebelum menggunakan algoritma binary search
